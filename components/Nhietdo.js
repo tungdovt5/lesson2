@@ -18,6 +18,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
                 borderColor: 'grey',
                 margin: 4,
             }}>
+
             <Text style={{
                 fontSize: 16,
                 fontWeight: 'bold',
@@ -47,8 +48,13 @@ export default class Nhietdo extends Component{
                 flexDirection: 'column',
                 marginTop: Platform.OS ==='ios' ? 34:0
             }}>
-                <View 
-            >
+                <View style={{
+                    position: 'absolute',
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+            }}>
                     <Image
                     style={{
                         flex: 1,
