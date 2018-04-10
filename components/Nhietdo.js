@@ -67,6 +67,8 @@ export default class Nhietdo extends Component{
                     
                         source={require('../components/image/1.jpeg')}
                     />
+                </View>
+                <View style={{height: 150}}>
                     <Text style={{
                         fontSize:16,
                         fontWeight:'bold',
@@ -86,7 +88,6 @@ export default class Nhietdo extends Component{
                                 <NhietdoItem item={item} index={index} parenFastlis={this} >
                                 </NhietdoItem>
                             );
-                            
                         }}>
                     </FlatList>    
                 </View>

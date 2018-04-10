@@ -19,5 +19,8 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/tungdovt5/lesson2.git",
+  "license": "MIT"
 }
